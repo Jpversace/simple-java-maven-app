@@ -15,6 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>ACADA Learning Releases Nexus Repository</name>
+	      <url>http://172.31.88.210:8081/repository/test-release//</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>ACADA Learning Snapshot Nexus Repository </name>
+	      <url>http://172.31.88.210:8081/repository/test-snapshot//</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
